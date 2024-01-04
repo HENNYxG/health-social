@@ -18,6 +18,8 @@ function App() {
           column1="Day"
           column2="Scheduled Exercise"
           column3="Time"
+          imgsrc="https://cdn-icons-png.flaticon.com/256/7140/7140112.png"
+          imgalt="runner"
         />
         <CardTable
           className="exercise-table"
@@ -26,6 +28,8 @@ function App() {
           column1="Exercise"
           column2="Duration"
           button="true"
+          imgsrc="https://cdn-icons-png.flaticon.com/256/7140/7140130.png"
+          imgalt="excercises"
         />
         <CardHighlights
           header="Active Calories"

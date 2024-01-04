@@ -7,10 +7,7 @@ function CardTable(props) {
   return (
     <div class={props.className + " neo-box card"}>
       <div class="subtitle">
-        <img
-          alt="runner"
-          src="https://cdn-icons-png.flaticon.com/256/7140/7140112.png"
-        />
+        <img alt={props.imgalt} src={props.imgsrc} />
         <h2>{props.header}</h2>
       </div>
       <table>
